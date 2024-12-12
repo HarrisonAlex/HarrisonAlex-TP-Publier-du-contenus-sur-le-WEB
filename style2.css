@@ -1,7 +1,6 @@
 .frame {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
   }
@@ -10,8 +9,9 @@
     background-color: #ffffff;
     overflow: hidden;
     width: 1440px;
-    height: 7288px;
+    height: 6260px;
     position: relative;
+    margin-bottom: -1000px;
   }
   
   .frame .overlap {
@@ -190,6 +190,7 @@
     position: relative;
     width: 1440px;
     height: 419px;
+    top: -1000px;
     background-color: #d9d9d9;
   }
   
@@ -636,7 +637,7 @@
   }
   
   .frame .oeuvre-du-mois {
-    width: 464px;
+    width: 480px;
     height: 643px;
     top: 703px;
     left: 904px;
@@ -717,6 +718,14 @@
       flex-direction: column; /* Change to column for smaller screens */
   }
 
+  .frame .bouton-voir-oeuvre {
+    position: absolute;
+    width: 500;
+    height: 1479px;
+    top: 0;
+    left: 93px;
+  }
+
     .text-wrapper {
         font-size: 1.5em;
     }
@@ -736,7 +745,8 @@
     .frame .div {
       background-color: #ffffff;
       overflow: hidden;
-      width: 500px;
+      max-width: 500px;
+      margin-left: auto;
       height: 7288px;
       left: -40;
       position: relative;
@@ -1238,5 +1248,6 @@ display: none;
   top: 4516px;
   left: 11px;
 }
+
 
   }
